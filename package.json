@@ -1,0 +1,29 @@
+{
+  "name": "star-dependencies",
+  "version": "1.0.0",
+  "description": "Give star⭐ to your repo's dependent package.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lqs469/star-dependencies.git"
+  },
+  "keywords": [
+    "star",
+    "dependenices"
+  ],
+  "author": "lqs469",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lqs469/star-dependencies/issues"
+  },
+  "homepage": "https://github.com/lqs469/star-dependencies#readme",
+  "dependencies": {
+    "@octokit/rest": "^14.0.9",
+    "es6-promise": "^4.2.4",
+    "isomorphic-fetch": "^2.2.1"
+  }
+}
