@@ -2,7 +2,7 @@
 
 ---
 
-> Give star to your repo's all dependent npm package.
+> Give star to your repo's all npm package.
 
 ## Why ?
 
