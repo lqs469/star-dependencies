@@ -6,7 +6,7 @@
 
 ## Why ?
 
-I seen [@hzoo's "Maintainer, Heal Thyself"](https://github.com/hzoo/maintainer-heal-thyself). So I realized that's a diffcult and exhausting thing to be a open source maintainer. So I just want to say a 'Thank you' to all open source maintainers and contributors. So I lit their repository and made this tool.
+I seen [@hzoo's "Maintainer, Heal Thyself"](https://github.com/hzoo/maintainer-heal-thyself). So I realized that's a diffcult and exhausting thing to be a open source maintainer. So I just want to say a 'Thank you' to all open source maintainers and contributors. So I starred their repository and made this tool.
 
 ## Install
 

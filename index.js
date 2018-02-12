@@ -81,7 +81,7 @@ function main () {
     findAllRepo(dp).then(data => {
       data.forEach(r => {
         star(r.owner, r.repo).then(() => {
-          console.log(`⭐  Star => ${r.repo}(${r.owner})`)
+          console.log(`⭐  Starred => ${r.repo}(${r.owner})`)
         })
       })
     })
