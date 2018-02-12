@@ -12,7 +12,7 @@ I seen [@hzoo's "Maintainer, Heal Thyself"](https://github.com/hzoo/maintainer-h
 
 You can install in gloabl or local. Recommend install in global to use it.
 
-```
+```BASH
 npm i star-dependencies -g
 ```
 
@@ -20,7 +20,7 @@ npm i star-dependencies -g
 
 Just `star` in repo path (with `package.json`).
 
-```
+```BASH
 star
 ```
 
@@ -34,4 +34,4 @@ You can check global npm installed path by `npm root -g`, If you install `star-d
 
 
 ## License
-MIT you know.
+MIT.
