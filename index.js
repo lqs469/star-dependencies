@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const pj = require('./package.json')
 const config = require('./config.json')
 const fetch = require('isomorphic-fetch')
