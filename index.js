@@ -12,6 +12,13 @@ console.log(`[${Object.keys(dp).length} dependencies]`)
 Object.keys(dp).forEach((d) => console.log('-', d))
 console.log('\n')
 
+console.log(`[${Object.keys(ddp).length} devDependencies]`)
+Object.keys(ddp).forEach((d) => {
+  console.log('-', d)
+  dp[d] = ddp[d]
+})
+console.log('\n')
+
 function login (username, password) {
   return new Promise((resolve, reject) => {
     if (!username || !password) {
@@ -49,7 +56,7 @@ function unstar (owner, repo) {
   })
 }
 
-function findAllRepo () {
+function findAllRepo (dp) {
   const registryurl = 'http://registry.cnpmjs.org'
 
   const ap = Object.keys(dp).map(d => {
@@ -71,7 +78,7 @@ function findAllRepo () {
 
 function main () {
   login(config.username, config.password).then(() => {
-    findAllRepo().then(data => {
+    findAllRepo(dp).then(data => {
       data.forEach(r => {
         star(r.owner, r.repo).then(() => {
           console.log(`⭐  Star => ${r.repo}(${r.owner})`)

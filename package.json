@@ -28,5 +28,6 @@
   },
   "bin": {
     "star": "index.js"
-  }
+  },
+  "devDependencies": {}
 }
