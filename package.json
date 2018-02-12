@@ -24,6 +24,7 @@
   "dependencies": {
     "@octokit/rest": "^14.0.9",
     "es6-promise": "^4.2.4",
-    "isomorphic-fetch": "^2.2.1"
+    "isomorphic-fetch": "^2.2.1",
+    "prompt": "^1.0.0"
   }
 }
