@@ -1,6 +1,6 @@
 {
   "name": "star-dependencies",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "⭐ Give star to your repo's all npm package.",
   "main": "index.js",
   "scripts": {
