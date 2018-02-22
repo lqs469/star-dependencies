@@ -4,7 +4,7 @@
 
 > Give star to your repo's all npm package.
 
-[NPM](https://www.npmjs.com/package/star-dependencies)
+[NPM](https://www.npmjs.com/package/star-dependencies), 
 [Github](https://github.com/lqs469/star-dependencies)
 
 ## Why ?
