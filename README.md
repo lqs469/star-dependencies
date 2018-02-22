@@ -4,6 +4,9 @@
 
 > Give star to your repo's all npm package.
 
+[NPM](https://www.npmjs.com/package/star-dependencies)
+[Github](https://github.com/lqs469/star-dependencies)
+
 ## Why ?
 
 I seen [@hzoo's "Maintainer, Heal Thyself"](https://github.com/hzoo/maintainer-heal-thyself). So I realized that's a diffcult and exhausting thing to be a open source maintainer. So I just want to say a 'Thank you' to all open source maintainers and contributors. So I starred their repository and made this tool.
