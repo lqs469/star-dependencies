@@ -4,7 +4,9 @@
   "description": "⭐ Give star to your repo's all npm package.",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -24,10 +26,12 @@
     "@octokit/rest": "^14.0.9",
     "es6-promise": "^4.2.4",
     "isomorphic-fetch": "^2.2.1",
-    "prompt": "^1.0.0"
+    "prompt": "^1.0.0",
+    "snyk": "^1.316.1"
   },
   "bin": {
     "star": "index.js"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "snyk": true
 }
